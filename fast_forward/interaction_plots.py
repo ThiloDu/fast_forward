@@ -9,7 +9,8 @@ from .interaction_distribution import BINS_DICT
 
 X_LABELS={'bonds': 'Distance',
           'angles': 'Angle',
-          'dihedrals': 'Angle'}
+          'dihedrals': 'Angle',
+          'distances': 'Distance'}
 
 def _plotter(data, atom_list, inter_type, ax):
 
