@@ -99,7 +99,7 @@ def make_matrix_plot(matrix, atom_names, axarr=None, name='matrix'):
     cbar = plt.colorbar(cax)
     cbar.set_label('Score', rotation=270, labelpad=15)
     cbar.ax.tick_params(labelsize=10)
-    axarr.set_title('Distance Matrix')
+    axarr.set_title('Distance Score Matrix')
 
     # need to make room for the title
     fig.subplots_adjust(hspace = 0.3)
